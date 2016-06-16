@@ -5,7 +5,7 @@ def main():
     print(a)
     c = 1000000
     while c > 0:
-    b = random.randint(0,99)
-    print (a[b])
-    c = c - 1
+        b = random.randint(0,99)
+        print (a[b])
+        c = c - 1
 main()
