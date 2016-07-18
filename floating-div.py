@@ -10,4 +10,6 @@ def main():
         c = a/b
         print(c)
         d = d - 1
+    with open('/proc/self/statm') as f:
+    print f.readline().split()[0]
 main()
