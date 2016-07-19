@@ -9,5 +9,5 @@ def main():
         print (a[b])
         c = c - 1
     with open('/proc/self/statm') as f:
-    print f.readline().split()[0]
+        print f.readline().split()[0]
 main()
