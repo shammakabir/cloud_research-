@@ -11,5 +11,5 @@ def main():
         print(c)
         d = d - 1
     with open('/proc/self/statm') as f:
-    print f.readline().split()[0]
+        print f.readline().split()[0]
 main()
